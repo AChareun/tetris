@@ -1,0 +1,43 @@
+body {
+  background-color: cadetblue;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+}
+
+.game-board {
+  width: 200px;
+  height: 400px;
+  border: solid black 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-board div {
+  height: 20px;
+  width: 20px;
+}
+
+.game-board .tetromino,
+#next-display .tetromino {
+  background-color: hotpink;
+  height: 19px;
+  width: 19px;
+  border: solid grey 0.5px;
+}
+
+#next-display {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid black 2px;
+}
+
+#next-display div {
+  width: 20px;
+  height: 20px;
+}
