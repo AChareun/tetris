@@ -22,7 +22,7 @@ body {
 
 .game-board .tetromino,
 #next-display .tetromino {
-  background-color: hotpink;
+  background-color: black;
   height: 19px;
   width: 19px;
   border: solid grey 0.5px;
